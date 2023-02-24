@@ -2,10 +2,12 @@ import requests
 import datetime
 import arcpy
 
-api_key = '6bcd99cc280f628876520c5cef165e92'
+#Provided the API key to make it possible to run this script if interested for the ECCE competition
+#A different key will be used in the long run
+temporary_api_key = '6bcd99cc280f628876520c5cef165e92'
 
 def get_weather(lat, lon, time):
-    url = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={api_key}&units=metric"
+    url = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={temporary_api_key}&units=metric"
     response = requests.get(url)
 
     data = response.json()
