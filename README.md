@@ -6,7 +6,7 @@
 - Provide the means to show when there were last fires in a specific region.
 # App Functionality
 - Displays points with information from the Survey123 form, containing information on fires reported at these locations.
-- The directions tool along with the barrier function can be used to find the best route out of an area if an roads are closed.
+- The directions tool along with the barrier function can be used to find the best route out of an area if any roads are closed.
 - Placing a point using the Incident Analysis tool, one can create a buffer to more easily grasp what arreas might be impacted.
 - The Measurement tool can be used to find the distance between one's current location and a reported fire.
 - The Analysis tool can be used to find where one can reach from any points where a fire was reported in case of evacuation, while it can be also used to find the density of reports in an area.
