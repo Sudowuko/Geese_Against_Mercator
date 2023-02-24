@@ -1,0 +1,11 @@
+Seeing how fires can impact both urban ecology and protected areas, our web app LightorFight takes reports from citizens and displays all reported wildfires on a map, 
+allowing users and firefighters to see if their area is at risk. Our app calculates the density of wildfires across the country, evacuation routes from the area at a 
+certain amount of time away and allows for buffers to be placed around the point of a hazardous fire.
+
+LightorFight uses an ArcGIS Survey 123 form to collect wildfire reports from citizens about the fires that they report. This is then uploaded to the ArcGIS Online cloud. 
+This allows for hazards to be updated in real time. LightorFight uses ArcGIS Web AppBuilder to easily calculate the density of wildfire reports in an area, show users 
+driving times to potential evacuation destinations, and buffer the area of a hazard depending on its predicted extent.
+
+LightorFight was designed to be a user-friendly way to aid in the preservation of protected areas and urban ecological systems during times of crisis during wildfires. 
+It allows users to easily analyze if their area is at risk and evacuate and allows firefighters to make the choice of preserving a protected area or to let the fire run 
+its natural course. 
